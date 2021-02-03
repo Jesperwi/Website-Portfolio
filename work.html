@@ -5,82 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.production.css">
     <link rel="shortcut icon" href="./Img/faviconWolf.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <title>My work</title>
 </head>
 
 <body>
-        <header class="page-header">
-              <img class="nav-logo" src="./Img/navcoin-nav-seeklogo.com.svg" alt="logo">
-            <nav class="page-header__items">             
-                <div class="table">
-                <ul class="links">
-                    <li class="link-list"><a href="./index.html">Home</a></li>
-                    <li class="link-list"><a href="./about.html">About</a></li>
-                    <li class="link-list"><a href="./contact.html">Contact</a></li>
-                    <li class="link-list"><a href="./work.html">Work</a></li>
-                </ul>
-               </div>               
-            </nav>
-        </header>
-    
-        <section class="works">
-            <h1>Work</h1>
-            <div class="grid">
-                <div class="grid__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                       Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="grid__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                       Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="grid__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                       Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="grid__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                       Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="grid__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                       Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-            </div>
-         </section>
+    <div class="block"></div>
+    <nav class="nav-bar">     
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>   
+            <ul class="links">
+                <li class="link-list"><a href="./index.html">HOME</a></li>
+                <li class="link-list"><a href="./about.html">ABOUT</a></li>
+                <li class="link-list"><a href="./contact.html">CONTACT</a></li>
+                <li class="link-list"><a href="./work.html">PROJECTS</a></li>
+            </ul>
+            <h1 class="nav-logo"><a href="./index.html">W</a></h1> 
+    </nav>
 
-         <footer class="page-footer">
-            <p class="find-me">Find me on</p>
-        <div class="social-media">
-            <a href="https://www.github.com" target="_blank">
-            <img class="icons" src="./Img/git.svg" alt="github">
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-            <img class="icons" src="./Img/twitter.svg" alt="twitter">
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank">
-            <img class="icons" src="./Img/linkedin.svg" alt="linkedin">
-            </a>
-        </div>
-        </footer>
+<div class="portfolioHead">
+    <h1 class="portfolioHeader"><span 
+        class="txt-rotate"
+        data-period="4000"
+        data-rotate='[ "My Projects." ]'></span></h1>
+</div>
 
-        <script src="js/tota11y.min.js"></script>
+<section class="works">
+<div class="grid">
+    <div class="grid__item">
+        <a href="https://pokedexx-git-main.jesperwi.vercel.app/" target="_blank"><img class="imgItem" src="./Img/pokedexview.png"></a>
+        <p>
+            On this project, I created a Pokedex with the help of Javascript, HTML and CCS. Data is pulled from an external API and enable different datapoints in detail.
+        </p>
+        <a href="https://github.com/Jesperwi/Pokedex.git" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+    <div class="grid__item">
+        <a href="https://myflixjw.netlify.app/"><img class="imgItem" src="./Img/myflixview.png"></a>
+        <p>
+            On this project, I created an app with the framework React. Using React and my own API and fixing endpoints with Postman, Users are able to login and watch the movie info that are displayed.
+        </p>
+        <a href="https://github.com/Jesperwi/myFlix-client" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+    <div class="grid__item">
+        <h2>Meet Event App</h2>
+        <p>
+            A serverless, PWA made with React using a test-driven development technique. This application uses the google calendar API to fetch events.
+        </p>
+        <a href="https://github.com/Jesperwi/meet.git" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+    <div class="grid__item">
+        <h2>Mobile Chat App</h2>
+        <p>
+        Chat app made with React Native and expo. The app will provide users with a chat interface and options to share images and their location.
+        </p>
+        <a href="https://github.com/Jesperwi/Android-Chat.git" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+    <div class="grid__item">
+        <h2>Angular Myflix App</h2>
+        <p>
+        An Angular app made for users to read about movies and collect their favorties.
+        </p>
+        <a href="https://github.com/Jesperwi/myFlix_Angular_client.git" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+    <div class="grid__item">
+        <h2>Api Creation</h2>
+        <p>
+            Using Node, SQL, MongoDB I created a database with REST API. With the help of JWT(Token-based) I made the API Authentication safe. 
+        </p>
+        <a href="https://github.com/Jesperwi/myflix-api.git" target="_blank"><Img class="gitHu" src="./Img/GitHub-Mark-Light-64px.png"></a>
+    </div>
+</div>
+</section>
 
+<footer class="page-footers">
+    <ul class="social-media">
+        <li class="mediaS"><a href="https://www.github.com/JesperWi" target="_blank">
+        GITHUB
+        </a></li>
+        <li class="mediaS"><a href="https://twitter.com/JesperWitt3" target="_blank">
+        TWITTER
+        </a></li>
+        <li class="mediaS"><a href="https://www.linkedin.com/in/jesper-witt-1a9b661a6/" target="_blank">
+        LINKEDIN
+        </a>
+    </ul>
+</footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+        <script src="./js/app.js"></script>
 
 </body>

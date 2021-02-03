@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(235, 231, 226);
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(190, 83, 83);
+  text-shadow: black 1px 2px;
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 1px 0.5px black;
+}
+
+.page-header__items {
+  flex: 0 1 200px;
+}
+
+.page-header__items:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.nav-logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.table {
+  flex: 0 1 200px;
+}
+
+.table:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.links a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-shadow: 0.5px 0.5px rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.link-list {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 1em;
+}
+
+.portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 8em;
+}
+
+h1,
+.intro {
+  margin: 15px;
+  text-align: center;
+}
+
+.code {
+  margin: 0 0 2em 6em;
+}
+
+.def-link {
+  color: black;
+  font-weight: bold;
+}
+
+.def-link:hover {
+  text-decoration: none;
+}
+
+.def-link:visited {
+  color: rgb(44, 1, 44);
+}
+
+.def-link:active {
+  color: blueviolet;
+}
+
+.def-link:hover,
+.def-link:focus {
+  text-decoration: none;
+}
+
+.button,
+button {
+  margin-top: 2em;
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: rgb(190, 83, 83);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.7s opacity;
+  width: 200px;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.page-footer a {
+  text-decoration: none;
+}
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.find-me {
+  position: relative;
+  text-align: left;
+  margin: 0 3.7em 0.7em 0;
+  font-weight: bold;
+}
+
+.icons {
+  width: 25%;
+  padding: 0 1em;
+}

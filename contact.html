@@ -5,38 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.production.css">
     <link rel="shortcut icon" href="./Img/faviconWolf.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
-  
-    <header class="page-header">
-        <img class="nav-logo" src="./Img/navcoin-nav-seeklogo.com.svg" alt="logo">
-      <nav class="page-header__items">             
-          <div class="table">
-          <ul class="links">
-              <li class="link-list"><a href="./index.html">Home</a></li>
-              <li class="link-list"><a href="./about.html">About</a></li>
-              <li class="link-list"><a href="./contact.html">Contact</a></li>
-              <li class="link-list"><a href="./work.html">Work</a></li>
-          </ul>
-          </div>
-          
-      </nav>
-  </header>
-    <div class="container">
-    <h1>Contact</h1>
-    <div class="wrapper">
-    <div class="information">
-        <p>Jesper Witt</p>
-        <p>Sweden, Malmö</p>
+    <div class="block"></div>
+    <nav class="nav-bar">     
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>   
+            <ul class="links">
+                <li class="link-list"><a href="./index.html">HOME</a></li>
+                <li class="link-list"><a href="./about.html">ABOUT</a></li>
+                <li class="link-list"><a href="./contact.html">CONTACT</a></li>
+                <li class="link-list"><a href="./work.html">PROJECTS</a></li>
+            </ul>
+            <h1 class="nav-logo"><a href="./index.html">W</a></h1> 
+    </nav>
 
-        <p>Tel <a href="+46760922496">+46 760922496</a></p>
-        <p><a href="live:jesper.witt">live:jesper.witt</a></p>
-        <p><a href="jesper.witt@hotmail.com">jesper.witt@hotmail.com</a></p>
+    <div class="contactWrapper">
+        <h1 class="contactHead">CONTACT INFO</h1>
+        <div class="informationContact">
+            <p>I am <span style="color: white;">available</span> for work.</br>Reach me on any of my <span style="color: white;">contacts!</span></p>
+        </div>
+    </div>
+    <div class="emailLinkWrap">
+        <p><a class="emailLink" href="mailto:jesper.witt6@gmail.com">jesper.witt6@gmail.com</a></p>
     </div>
 
-    <form action="#" method="post" id="contact-form">
+    <!-- <form action="#" method="post" id="contact-form">
         <label class="standard-label" for="contact-email">E-mail: </label><br>
    	    <input type="email" id="contact-email"><br>
       
@@ -47,27 +46,23 @@
         <textarea maxlength="240" required id="contact-mess"></textarea><br>
       
         <input type="submit" value="Send message">
-      </form>
-    </div>
-    </div>
+      </form> -->
 
-      <footer class="page-footer">
-        <p class="find-me">Find me on</p>
-    <div class="social-media">
-        <a href="https://www.github.com" target="_blank">
-        <img class="icons" src="./Img/git.svg" alt="github">
-        </a>
-        <a href="https://www.twitter.com" target="_blank">
-        <img class="icons" src="./Img/twitter.svg" alt="twitter">
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-        <img class="icons" src="./Img/linkedin.svg" alt="linkedin">
-        </a>
-    </div>
+    <footer class="page-footers">
+        <ul class="social-media">
+            <li class="mediaS"><a href="https://www.github.com/JesperWi" target="_blank">
+            GITHUB
+            </a></li>
+            <li class="mediaS"><a href="https://twitter.com/JesperWitt3" target="_blank">
+            TWITTER
+            </a></li>
+            <li class="mediaS"><a href="https://www.linkedin.com/in/jesper-witt-1a9b661a6/" target="_blank">
+            LINKEDIN
+            </a>
+        </ul>
     </footer>
     
-    <script src="js/tota11y.min.js"></script>
-
+    <script src="./js/app.js"></script>
 
 </body>
 </html>
