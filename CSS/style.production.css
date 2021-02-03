@@ -67,6 +67,7 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
   padding: 3em 10em;
   overflow-x: hidden;
+  vertical-align: top;
 }
 
 .links {
@@ -106,6 +107,10 @@ body::-webkit-scrollbar-thumb {
   font-family: "Roboto", sans-serif;
   list-style: none;
   display: inline-block;
+}
+
+.burger {
+  padding-top: 20px;
 }
 
 .burger div {
@@ -208,33 +213,10 @@ body::-webkit-scrollbar-thumb {
 
 .intro {
   font-family: "Roboto", sans-serif;
-  width: 1600px;
   line-height: 80px;
   color: white;
-  padding: 2em;
+  padding: 2em 3em;
   font-size: 80px;
-}
-
-.programKnow {
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-.knowWrapper div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.imgWrapper img {
-  width: 100px;
-  height: 90px;
-  padding: 15px;
 }
 
 /* contact */
@@ -495,4 +477,104 @@ button:focus,
 .grid__item:hover {
   transform: scale(1.1);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 650px) {
+  .block {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    padding: 3em 2em;
+    width: 90%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-footer {
+    padding: 3.5em;
+  }
+
+  .page-footers {
+    padding: 3.5em;
+  }
+
+  .social-media {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .portrait {
+    width: 90%;
+  }
+
+  .intro {
+    font-size: 30px;
+    width: 400px;
+    line-height: 30px;
+  }
+
+  .contactHead {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .emailLink {
+    font-size: 30px;
+  }
+
+  .aboutBlock {
+    padding: 0;
+    padding-top: 10em;
+  }
+
+  .aboutHead {
+    font-size: 60px;
+    padding-left: 10px;
+    padding-top: 1em;
+  }
+
+  .aboutMe {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0 1em;
+  }
+
+  .buttonPosition {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 2em;
+  }
+
+  .breadIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .portfolioHead {
+    padding: 0 1em;
+    padding-top: 10em;
+  }
+
+  .portfolioHeader {
+    font-size: 60px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 1em;
+  }
+
+  .works {
+    padding-bottom: 2em;
+  }
 }
