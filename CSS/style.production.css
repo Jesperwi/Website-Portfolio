@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
   padding: 1.3em 1em;
   margin-right: auto;
   transform: translateX(-300%);
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .change {
@@ -293,7 +293,6 @@ body::-webkit-scrollbar-thumb {
 
 .berlinIllu {
   position: absolute;
-  left: 5%;
   top: 0%;
   z-index: -1;
   margin-top: 10em;
@@ -482,6 +481,15 @@ button:focus,
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 650px) {
+  .berlinIllu {
+    margin-top: 15em;
+    padding-left: 10em;
+    display: flex;
+    right: 0;
+    width: 500px;
+    height: 500px;
+  }
+
   .block {
     display: none;
   }
