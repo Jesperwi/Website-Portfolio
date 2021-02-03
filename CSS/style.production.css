@@ -111,6 +111,7 @@ body::-webkit-scrollbar-thumb {
 
 .burger {
   padding-top: 20px;
+  cursor: pointer;
 }
 
 .burger div {
