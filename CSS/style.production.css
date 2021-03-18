@@ -489,6 +489,10 @@ button:focus,
   opacity: 0.5;
 }
 
+.caseLink:hover {
+  opacity: 0.5;
+}
+
 .grid__item:hover {
   transform: scale(1.1);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
