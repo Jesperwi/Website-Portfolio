@@ -265,6 +265,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 11em;
   padding-right: 2.5em;
   justify-content: center;
+  height: 49vh !important;
 }
 
 /* about */
@@ -438,6 +439,12 @@ button:focus,
   font-size: 60px;
 }
 
+.work-title {
+  padding-left: 9em;
+  padding-bottom: 2em;
+  color: white;
+}
+
 .grid {
   color: white;
   display: grid;
@@ -513,6 +520,13 @@ button:focus,
   .block {
     display: none;
   }
+
+  .work-title {
+    padding-left: 0em;
+    padding-bottom: 2em;
+    color: white;
+  }
+  
 
   .nav-bar {
     display: flex;
